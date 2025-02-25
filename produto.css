@@ -1,0 +1,20 @@
+body {
+    height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex; /* Usa flexbox para centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #f0f0f0; /* Cor de fundo suave para a página */
+}
+
+.container {
+    background-color: #00b7ff; /* Cor azul */
+    color: black; /* Texto branco */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}

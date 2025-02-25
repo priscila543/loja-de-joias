@@ -1,0 +1,42 @@
+body {
+    height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex; /* Usa flexbox para centralização */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #f0f0f0; /* Cor de fundo suave para a página */
+}
+
+.container {
+    background-color: #00b7ff; /* Cor azul */
+    color: black; /* Texto branco */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+input{
+    padding: 5px;
+    width: -webkit-fill-available; /*deixa os botoes do mesmo tamanho*/
+    border-radius: 8px;
+    
+}
+
+button {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: black;
+    flex-direction: column;
+    cursor: pointer; /*quando passar em cima do botao vai aparecer uma mãozinha*/
+    width: -webkit-fill-available; /*deixa os botoes do mesmo tamanho*/
+}
+
+button:hover {
+    background-color: #dddfe0; /* Cor de fundo quando o botão for hover */
+}

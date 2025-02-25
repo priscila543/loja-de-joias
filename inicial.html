@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seja bem-vindo em nossa loja!</h1>
+        <div>
+            <div><button type="submit" onclick="produtos()">Ver produtos</button></div>
+        </div>
+        <br>
+        <div>
+            <div><button type="submit" onclick="carrinho()">Ir para o carrinho</button></div>
+        </div>
+        <br>
+        <div>
+            <div><button type="submit" onclick="inicil()">Voltar para Login</button></div>
+        </div>
+    </div>
+    <script>
+        function produtos(){
+            //window - objeto global que representa a janela do navegador
+            window.location.href = "produto.php";
+        }
+        function carrinho(){
+            window.location.href = "carrinho.php";
+        }
+        function inicil(){
+            window.location.href = "login.php";
+        }
+    </script>
+</body>
+</html>
