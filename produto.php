@@ -28,7 +28,7 @@
             }
 
             //$pdo->prepare()- prepara a consulta SQL
-            $select = $pdo->prepare("SELECT * FROM produtos");
+            $select = $pdo->prepare("SELECT * FROM produtos ORDER BY preco ASC");
             //executa a consulta
             $select->execute();
             //fetchALL - retorna todos os resultados como um array associativo (chaves nomeadas em vez de indices numericos)
